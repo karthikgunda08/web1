@@ -1,0 +1,1 @@
+import{a as i}from"./authService-2d4415af.js";const a=async(s,n)=>i("/foundation/submit",{method:"POST",body:JSON.stringify({projectId:s,proposal:n})}),t=async()=>i("/foundation/submissions"),r=async s=>i(`/foundation/submissions/${s}/adjudicate`,{method:"POST"});export{r as a,t as g,a as s};
